@@ -1,0 +1,127 @@
+nav{
+    position: sticky;
+    top:0px;
+    width:100vw;
+    background-color: white;
+    z-index: 2;
+}
+.vertical-line{
+    border-left:2px solid #F2F2F2;
+    height:60px;
+}
+.nav-delivery>h5{
+    margin-top: 10px;
+    font-weight: 900;
+}
+.nav-delivery>p{
+    font: size 13px;
+}
+.searchbar{
+    background-color: #f8f8f8;
+    border-radius:10px;
+    border: 1px solid #f2f2f2;
+    padding-inline: 10px;
+}
+.searchbar>input{
+    border: none;
+    width: 35vw;
+    height: 45px;
+    background-color: transparent;
+}
+.cart-btn{
+    background-color: #0C831F !important;
+    color:white !important;
+    font-weight: 700 !important;
+}
+.display-section>img{
+    padding-inline: 30px;
+}
+#categories-1{
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline: 4vw;
+    justify-content: space-around;    
+}
+#categories-1>img{
+    padding-inline: 0px;
+}
+.scroll-container{
+    width:90vw;
+    margin: auto;
+}
+.list{
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+.list>img{
+    display:inline-block;
+    margin: 10px;
+}
+/* ::-webkit-scrollbar{
+    display: none;
+} */
+.category{
+    width: 90vw;
+    margin: auto;
+}
+.my-card{
+    width: 220px;
+    box-sizing: border-box;
+    border-radius:15px !important;
+    white-space: wrap;
+}
+.my-card>img{
+    display: inline-block;
+    margin: auto;
+}
+.timer{
+    background-color: #f2f2f2;
+    font-weight: 700;
+    font-size:9px;
+    color:rgb(54,54,54);
+    width: fit-content;
+    padding: 3px;
+    border-radius: 5px;
+}
+.product-weight{
+    font-size: 13px;
+    color:#666666;
+
+}
+.row-3>p{
+    margin: 0px;
+}
+.my-card{
+    display:inline-block !important;
+}
+.discount-tag{
+    width: 40px;
+    height: 45px;
+    background-color: #538CEE;
+    position: absolute;
+    top:0px;
+    left:15px;
+    font-size: 13px;
+    font-weight: 700;
+    color:white;
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+}
+footer{
+    padding:40px;
+}
+
+@media screen and (max-width:480px) {
+    #display-sec{
+        display: none !important;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
